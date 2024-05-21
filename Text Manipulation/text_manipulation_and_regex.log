@@ -1,0 +1,111 @@
+Script started on Mon May 20 22:39:45 2024
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hsscexitgit push -u origin main[23Dexit                   [19Dsc  s  exitgit push -u origin main[23Dexit                   [19D    sscr
+[Jscreen         screencapture  script[A[0m[27m[24m[37Cscr[Kipt -a text_manipulation_and_regex.log[1m [0m[0m [?2004l
+[JScript started, output file is text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hhhead -n 6 fruits.csv[1m [0m[0m [?2004l
+NAME,COLOR,SIZE
+orange,orange,medium
+grape,green,small
+grape,red,small
+apple,red,medium
+banana,yellow,medium
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hccut -d, fruits.csv[1m [0m[0m [?2004l
+usage: cut -b list [-n] [file ...]
+       cut -c list [file ...]
+       cut -f list [-s] [-w | -d delim] [file ...]
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hccut -d, -f 1 fruits.csv[1m [0m[0m [?2004l
+NAME
+orange
+grape
+grape
+apple
+banana
+watermelon
+avocado
+lemon
+honeydew
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""o"r"a"n"g"e"[1C fruits.csv[1m [0m[0m [?2004l
+orange,orange,medium
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004httail -n +1 r fruits.csv[1m [0m[0m [?2004l
+NAME,COLOR,SIZE
+orange,orange,medium
+grape,green,small
+grape,red,small
+apple,red,medium
+banana,yellow,medium
+watermelon,green,large
+avocado,green,medium
+lemon,yellow,medium
+honeydew,green,large
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep "grape" fruits.csv[?2004l
+grape,green,small
+grape,red,small
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hffre f  ggrep ""m"e"d"["]"" " " " " [1C" g"r"{"" ]"" ["]"e]"a]"[1C[1C fruits.csv[1m [0m[0m [?2004l
+grape,green,small
+grape,red,small
+watermelon,green,large
+avocado,green,medium
+honeydew,green,large
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""."a"o"" p"[1C g fruits.csv[1m [0m[0m [?2004l
+grape,green,small
+grape,red,small
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""g"" a"p"*"l"[1C fruits.csv[1m [0m[0m [?2004l
+grape,green,small
+grape,red,small
+apple,red,medium
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""e"l"?"o"[1C fruits.csv[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggr
+[Jgradle           gradle.bat       graphicssession  grep             groups[A[0m[27m[24m[37Cgr[Kep 
+[J[A[42C"el?o" fruits.csv[16Dap*l[12C[16Del?o[12C- "el?o" fruits.csv[18D[P[18C [19D[1C "el?o" fruits.csv[18D- "el?o" fruits.csv[18DE "el?o" fruits.csv[18D[1C[1C[1C[1C[?2004l
+[Jwatermelon,green,large
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hccleaer[?2004l
+zsh: command not found: cleaer
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hww wc -l   --help[?2004l
+wc: illegal option -- -
+usage: wc [-Lclmw] [file ...]
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hwwc -help[?2004l
+wc: illegal option -- h
+usage: wc [-Lclmw] [file ...]
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hwwc --h[?2004l
+wc: illegal option -- -
+usage: wc [-Lclmw] [file ...]
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hwwc -h[?2004l
+wc: illegal option -- h
+usage: wc [-Lclmw] [file ...]
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hwwc -l fruits.csv[1m [0m[0m [?2004l
+      10 fruits.csv
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""g"r"e"e"n"[1C fruits.csv[?2004l
+grape,green,small
+watermelon,green,large
+avocado,green,medium
+honeydew,green,large
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""green" fruits.csv | wv  c -l[?2004l
+       4
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004heexit[?2004l
+
+Script done, output file is text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit log[?2004l
+[?1h=[33mcommit ca3fcebc98b4e15209aa2f633b17044ecfacb2b8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: Diljot Singh <sdiljot291@gmail.com>[m
+Date:   Sun May 19 12:03:48 2024 -0700[m
+[m
+    learn pipes and redirects stdout and stderror[m
+[m
+[33mcommit 7e07d2423f5794a00b7b9c1de5a8af49a89faf46[m[m
+Author: Diljot Singh <sdiljot291@gmail.com>[m
+Date:   Sun May 19 11:43:24 2024 -0700[m
+[m
+    archive and compress using gzip with tar[m
+[m
+[33mcommit f63f678842eb288314c8dfdf3846af96aedf85b9[m[m
+Author: Diljot Singh <sdiljot291@gmail.com>[m
+Date:   Sun May 19 11:39:15 2024 -0700[m
+[m
+    first commit[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit sta
