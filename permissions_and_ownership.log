@@ -1,0 +1,110 @@
+Script started on Wed May 22 13:15:55 2024
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hccla ear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hcchmod    c  lls -l[?2004l
+total 16
+drwxr-xr-x  4 apple  staff  128 May 19 11:44 Pipes and Redirects
+drwxr-xr-x  3 apple  staff   96 May 20 23:06 Shell Scripts
+drwxr-xr-x  2 apple  staff   64 May 16 15:05 Test2
+drwxr-xr-x  2 apple  staff   64 May 16 15:05 Test3
+drwxr-xr-x  4 apple  staff  128 May 19 12:11 Text Manipulation
+drwxr-xr-x  4 apple  staff  128 May 19 11:42 archiving
+-rw-r--r--  1 apple  staff    0 May 16 15:08 fileName1
+-rw-r--r--@ 1 apple  staff   63 May 19 10:57 mainFile
+-rw-r--r--  1 apple  staff    0 May 16 15:06 mainFile_copy
+-rw-r--r--  1 apple  staff   43 May 22 13:15 permissions_and_ownership.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hcchmod ug+r xo Test2[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hlls -l[?2004l
+total 16
+drwxr-xr-x  4 apple  staff   128 May 19 11:44 Pipes and Redirects
+drwxr-xr-x  3 apple  staff    96 May 20 23:06 Shell Scripts
+drwxr-xr-x  2 apple  staff    64 May 16 15:05 Test2
+drwxr-xr-x  2 apple  staff    64 May 16 15:05 Test3
+drwxr-xr-x  4 apple  staff   128 May 19 12:11 Text Manipulation
+drwxr-xr-x  4 apple  staff   128 May 19 11:42 archiving
+-rw-r--r--  1 apple  staff     0 May 16 15:08 fileName1
+-rw-r--r--@ 1 apple  staff    63 May 19 10:57 mainFile
+-rw-r--r--  1 apple  staff     0 May 16 15:06 mainFile_copy
+-rw-r--r--  1 apple  staff  1565 May 22 13:16 permissions_and_ownership.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hls -lchmod ug+xo Test2o Test2 [8Dwo Test2[1C[1C[1C[1C[1C[1C[1C[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hlls -l[?2004l
+total 16
+drwxr-xr-x  4 apple  staff   128 May 19 11:44 Pipes and Redirects
+drwxr-xr-x  3 apple  staff    96 May 20 23:06 Shell Scripts
+drwxrwxr-x  2 apple  staff    64 May 16 15:05 Test2
+drwxr-xr-x  2 apple  staff    64 May 16 15:05 Test3
+drwxr-xr-x  4 apple  staff   128 May 19 12:11 Text Manipulation
+drwxr-xr-x  4 apple  staff   128 May 19 11:42 archiving
+-rw-r--r--  1 apple  staff     0 May 16 15:08 fileName1
+-rw-r--r--@ 1 apple  staff    63 May 19 10:57 mainFile
+-rw-r--r--  1 apple  staff     0 May 16 15:06 mainFile_copy
+-rw-r--r--  1 apple  staff  1565 May 22 13:16 permissions_and_ownership.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hcchmd  od ug-rwx,  o+w Test2[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hlls -l[?2004l
+total 16
+drwxr-xr-x  4 apple  staff   128 May 19 11:44 Pipes and Redirects
+drwxr-xr-x  3 apple  staff    96 May 20 23:06 Shell Scripts
+d-w--w-r-x  2 apple  staff    64 May 16 15:05 Test2
+drwxr-xr-x  2 apple  staff    64 May 16 15:05 Test3
+drwxr-xr-x  4 apple  staff   128 May 19 12:11 Text Manipulation
+drwxr-xr-x  4 apple  staff   128 May 19 11:42 archiving
+-rw-r--r--  1 apple  staff     0 May 16 15:08 fileName1
+-rw-r--r--@ 1 apple  staff    63 May 19 10:57 mainFile
+-rw-r--r--  1 apple  staff     0 May 16 15:06 mainFile_copy
+-rw-r--r--  1 apple  staff  3557 May 22 13:17 permissions_and_ownership.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hls -lchmod ug-rwxo+w Test2,o+w Test2[9D[1C[1C[1C[1C[1C[1C[1C[1C[1C[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hlls -l[?2004l
+total 24
+drwxr-xr-x  4 apple  staff   128 May 19 11:44 Pipes and Redirects
+drwxr-xr-x  3 apple  staff    96 May 20 23:06 Shell Scripts
+d------rwx  2 apple  staff    64 May 16 15:05 Test2
+drwxr-xr-x  2 apple  staff    64 May 16 15:05 Test3
+drwxr-xr-x  4 apple  staff   128 May 19 12:11 Text Manipulation
+drwxr-xr-x  4 apple  staff   128 May 19 11:42 archiving
+-rw-r--r--  1 apple  staff     0 May 16 15:08 fileName1
+-rw-r--r--@ 1 apple  staff    63 May 19 10:57 mainFile
+-rw-r--r--  1 apple  staff     0 May 16 15:06 mainFile_copy
+-rw-r--r--  1 apple  staff  4622 May 22 13:18 permissions_and_ownership.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hlls -l[?2004l
+total 24
+drwxr-xr-x  4 apple  staff   128 May 19 11:44 Pipes and Redirects
+drwxr-xr-x  3 apple  staff    96 May 20 23:06 Shell Scripts
+d------rwx  2 apple  staff    64 May 16 15:05 Test2
+drwxr-xr-x  2 apple  staff    64 May 16 15:05 Test3
+drwxr-xr-x  4 apple  staff   128 May 19 12:11 Text Manipulation
+drwxr-xr-x  4 apple  staff   128 May 19 11:42 archiving
+-rw-r--r--  1 apple  staff     0 May 16 15:08 fileName1
+-rw-r--r--@ 1 apple  staff    63 May 19 10:57 mainFile
+-rw-r--r--  1 apple  staff     0 May 16 15:06 mainFile_copy
+-rw-r--r--  1 apple  staff  5760 May 22 13:18 permissions_and_ownership.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hcchwon randhawa Test2[?2004l
+zsh: command not found: chwon
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hchwon randhawa Test2schwon randhawa Test2[20Dsuchwon randhawa Test2[20Ddchwon randhawa Test2[20Dochwon randhawa Test2[20D chwon randhawa Test2[20D[?2004l
+Password:
+sudo: chwon: command not found
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit status[?2004l
+warning: could not open directory 'Test2/': Permission denied
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mpermissions_and_ownership.log[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit add .[?2004l
+warning: could not open directory 'Test2/': Permission denied
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hg cchmod u+r, w gogo [1C[1C Test2[?2004l
+chmod: Invalid file mode: u+r,go
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hchmod u+r,go Test2[18Dgit add .         [9Dstatus[10Dsudo chwon randhawa Test2[25D[5P[20C     [20Dls -l               [15Dchwon randhawa Test2[20Dls -l               [15Dclearls -lchmod ug-rwx,o+w Test2[22Dls -l                 [17Dclearls -lchwon randhawa Test2[20Dsudo chwon randhawa Test2[25Dgit status               [15Dadd . [9Dchmod u+r,go Test2[18D                  [18Dchmod u+r,go Test2[1Cgo Test2 [9D[1C[1C[1C[1C[1C[1C[1C[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hlls 0 -l[?2004l
+total 32
+drwxr-xr-x  4 apple  staff   128 May 19 11:44 Pipes and Redirects
+drwxr-xr-x  3 apple  staff    96 May 20 23:06 Shell Scripts
+drwx---rwx  2 apple  staff    64 May 16 15:05 Test2
+drwxr-xr-x  2 apple  staff    64 May 16 15:05 Test3
+drwxr-xr-x  4 apple  staff   128 May 19 12:11 Text Manipulation
+drwxr-xr-x  4 apple  staff   128 May 19 11:42 archiving
+-rw-r--r--  1 apple  staff     0 May 16 15:08 fileName1
+-rw-r--r--@ 1 apple  staff    63 May 19 10:57 mainFile
+-rw-r--r--  1 apple  staff     0 May 16 15:06 mainFile_copy
+-rw-r--r--  1 apple  staff  9335 May 22 13:21 permissions_and_ownership.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004h
