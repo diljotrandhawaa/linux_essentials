@@ -107,4 +107,74 @@ drwxr-xr-x  4 apple  staff   128 May 19 11:42 archiving
 -rw-r--r--@ 1 apple  staff    63 May 19 10:57 mainFile
 -rw-r--r--  1 apple  staff     0 May 16 15:06 mainFile_copy
 -rw-r--r--  1 apple  staff  9335 May 22 13:21 permissions_and_ownership.log
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit commit -m ""p"e"r"i"m"" " m"i"s"s"i"o"n"s" "m"o"d"i"f"i"e"d" "o"f" "u"s"e"r","g"r"o"u"p","o"t"h"e"r" "l"i"n"u"s"" " " " " l"i"n"u"x"[?2004l
+[main 15cb0ce] permissions modified of user,group,other linux
+ 1 file changed, 110 insertions(+)
+ create mode 100644 permissions_and_ownership.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit push originm   main[?2004l
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 1.32 KiB | 1.32 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/diljotrandhawaa/linux_essentials.git
+   13b256d..15cb0ce  main -> main
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hllnl ls[?2004l
+Pipes and Redirects		Text Manipulation		mainFile_copy
+Shell Scripts			archiving			permissions_and_ownership.log
+Test2				fileName1
+Test3				mainFile
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hccd Text\ Manipulation[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls[?2004l
+fruits.csv			text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hsscr
+[Jscreen         screencapture  script[A[0m[27m[24m[37Cscr[Kipt tq
+[J[A[46C ext_manipulation_and_regex.log[1m [0m[0m [?2004l
+[JScript started, output file is text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004httouch file    original_file[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlln -s original_file[1m [0m[0m duplicate[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls[?2004l
+duplicate			original_file
+fruits.csv			text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls -l[?2004l
+total 16
+lrwxr-xr-x  1 apple  staff   13 May 22 13:37 duplicate -> original_file
+-rw-r--r--@ 1 apple  staff  194 May 19 12:06 fruits.csv
+-rw-r--r--  1 apple  staff    0 May 22 13:36 original_file
+-rw-r--r--  1 apple  staff  523 May 22 13:37 text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls original_file[1m [0m[0m [?2004l
+original_file
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls original_file[1m [0m[0m /[?2004l
+ls: original_file/: Not a directory
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls duplicate[1m [0m[0m [?2004l
+duplicate
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004ht mmkdir original_folder[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlln -s original_folder[1m/[0m[0m  duplicae te_folder[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls[?2004l
+duplicate			fruits.csv			original_folder
+duplicate_folder		original_file			text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004httouch    t  ccd original_f
+[Joriginal_file     original_folder/[A[0m[27m[24m[37Ccd original_f[Kolder[1m/[0m[0m [?2004l
+[J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP original_folder % [K[?2004httouch file1 file2[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP original_folder % [K[?2004hlls[?2004l
+file1	file2
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP original_folder % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls original_folder[1m/[0m[0m [?2004l
+file1	file2
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls duplicate
+[Jduplicate@         duplicate_folder@[A[0m[27m[24m[37Cls duplicate[K_folder[1m/[0m[0m [?2004l
+[Jfile1	file2
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls 0l  -l[?2004l
+total 24
+lrwxr-xr-x  1 apple  staff    13 May 22 13:37 duplicate -> original_file
+lrwxr-xr-x  1 apple  staff    15 May 22 13:38 duplicate_folder -> original_folder
+-rw-r--r--@ 1 apple  staff   194 May 19 12:06 fruits.csv
+-rw-r--r--  1 apple  staff     0 May 22 13:36 original_file
+drwxr-xr-x  4 apple  staff   128 May 22 13:38 original_folder
+-rw-r--r--  1 apple  staff  4215 May 22 13:38 text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004h

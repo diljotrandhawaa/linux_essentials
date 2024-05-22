@@ -1,144 +1,46 @@
-Script started on Mon May 20 22:39:45 2024
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hsscexitgit push -u origin main[23Dexit                   [19Dsc  s  exitgit push -u origin main[23Dexit                   [19D    sscr
-[Jscreen         screencapture  script[A[0m[27m[24m[37Cscr[Kipt -a text_manipulation_and_regex.log[1m [0m[0m [?2004l
-[JScript started, output file is text_manipulation_and_regex.log
+Script started on Wed May 22 13:36:36 2024
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004httouch file    original_file[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlln -s original_file[1m [0m[0m duplicate[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls[?2004l
+duplicate			original_file
+fruits.csv			text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls -l[?2004l
+total 16
+lrwxr-xr-x  1 apple  staff   13 May 22 13:37 duplicate -> original_file
+-rw-r--r--@ 1 apple  staff  194 May 19 12:06 fruits.csv
+-rw-r--r--  1 apple  staff    0 May 22 13:36 original_file
+-rw-r--r--  1 apple  staff  523 May 22 13:37 text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls original_file[1m [0m[0m [?2004l
+original_file
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls original_file[1m [0m[0m /[?2004l
+ls: original_file/: Not a directory
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls duplicate[1m [0m[0m [?2004l
+duplicate
 [1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hhhead -n 6 fruits.csv[1m [0m[0m [?2004l
-NAME,COLOR,SIZE
-orange,orange,medium
-grape,green,small
-grape,red,small
-apple,red,medium
-banana,yellow,medium
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hccut -d, fruits.csv[1m [0m[0m [?2004l
-usage: cut -b list [-n] [file ...]
-       cut -c list [file ...]
-       cut -f list [-s] [-w | -d delim] [file ...]
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hccut -d, -f 1 fruits.csv[1m [0m[0m [?2004l
-NAME
-orange
-grape
-grape
-apple
-banana
-watermelon
-avocado
-lemon
-honeydew
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""o"r"a"n"g"e"[1C fruits.csv[1m [0m[0m [?2004l
-orange,orange,medium
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004httail -n +1 r fruits.csv[1m [0m[0m [?2004l
-NAME,COLOR,SIZE
-orange,orange,medium
-grape,green,small
-grape,red,small
-apple,red,medium
-banana,yellow,medium
-watermelon,green,large
-avocado,green,medium
-lemon,yellow,medium
-honeydew,green,large
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep "grape" fruits.csv[?2004l
-grape,green,small
-grape,red,small
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hffre f  ggrep ""m"e"d"["]"" " " " " [1C" g"r"{"" ]"" ["]"e]"a]"[1C[1C fruits.csv[1m [0m[0m [?2004l
-grape,green,small
-grape,red,small
-watermelon,green,large
-avocado,green,medium
-honeydew,green,large
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""."a"o"" p"[1C g fruits.csv[1m [0m[0m [?2004l
-grape,green,small
-grape,red,small
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""g"" a"p"*"l"[1C fruits.csv[1m [0m[0m [?2004l
-grape,green,small
-grape,red,small
-apple,red,medium
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""e"l"?"o"[1C fruits.csv[1m [0m[0m [?2004l
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggr
-[Jgradle           gradle.bat       graphicssession  grep             groups[A[0m[27m[24m[37Cgr[Kep 
-[J[A[42C"el?o" fruits.csv[16Dap*l[12C[16Del?o[12C- "el?o" fruits.csv[18D[P[18C [19D[1C "el?o" fruits.csv[18D- "el?o" fruits.csv[18DE "el?o" fruits.csv[18D[1C[1C[1C[1C[?2004l
-[Jwatermelon,green,large
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004h[?2004l
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hccleaer[?2004l
-zsh: command not found: cleaer
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hww wc -l   --help[?2004l
-wc: illegal option -- -
-usage: wc [-Lclmw] [file ...]
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hwwc -help[?2004l
-wc: illegal option -- h
-usage: wc [-Lclmw] [file ...]
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hwwc --h[?2004l
-wc: illegal option -- -
-usage: wc [-Lclmw] [file ...]
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hwwc -h[?2004l
-wc: illegal option -- h
-usage: wc [-Lclmw] [file ...]
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hcclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hwwc -l fruits.csv[1m [0m[0m [?2004l
-      10 fruits.csv
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""g"r"e"e"n"[1C fruits.csv[?2004l
-grape,green,small
-watermelon,green,large
-avocado,green,medium
-honeydew,green,large
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hggrep ""green" fruits.csv | wv  c -l[?2004l
-       4
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004ht mmkdir original_folder[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlln -s original_folder[1m/[0m[0m  duplicae te_folder[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls[?2004l
+duplicate			fruits.csv			original_folder
+duplicate_folder		original_file			text_manipulation_and_regex.log
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004httouch    t  ccd original_f
+[Joriginal_file     original_folder/[A[0m[27m[24m[37Ccd original_f[Kolder[1m/[0m[0m [?2004l
+[J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP original_folder % [K[?2004httouch file1 file2[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP original_folder % [K[?2004hlls[?2004l
+file1	file2
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP original_folder % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls original_folder[1m/[0m[0m [?2004l
+file1	file2
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls duplicate
+[Jduplicate@         duplicate_folder@[A[0m[27m[24m[37Cls duplicate[K_folder[1m/[0m[0m [?2004l
+[Jfile1	file2
+[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hlls 0l  -l[?2004l
+total 24
+lrwxr-xr-x  1 apple  staff    13 May 22 13:37 duplicate -> original_file
+lrwxr-xr-x  1 apple  staff    15 May 22 13:38 duplicate_folder -> original_folder
+-rw-r--r--@ 1 apple  staff   194 May 19 12:06 fruits.csv
+-rw-r--r--  1 apple  staff     0 May 22 13:36 original_file
+drwxr-xr-x  4 apple  staff   128 May 22 13:38 original_folder
+-rw-r--r--  1 apple  staff  4215 May 22 13:38 text_manipulation_and_regex.log
 [1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004heexit[?2004l
 
-Script done, output file is text_manipulation_and_regex.log
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Text Manipulation % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit log[?2004l
-[?1h=[33mcommit ca3fcebc98b4e15209aa2f633b17044ecfacb2b8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
-Author: Diljot Singh <sdiljot291@gmail.com>[m
-Date:   Sun May 19 12:03:48 2024 -0700[m
-[m
-    learn pipes and redirects stdout and stderror[m
-[m
-[33mcommit 7e07d2423f5794a00b7b9c1de5a8af49a89faf46[m[m
-Author: Diljot Singh <sdiljot291@gmail.com>[m
-Date:   Sun May 19 11:43:24 2024 -0700[m
-[m
-    archive and compress using gzip with tar[m
-[m
-[33mcommit f63f678842eb288314c8dfdf3846af96aedf85b9[m[m
-Author: Diljot Singh <sdiljot291@gmail.com>[m
-Date:   Sun May 19 11:39:15 2024 -0700[m
-[m
-    first commit[m
-[K[?1l>[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit status[?2004l
-On branch main
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31mText Manipulation/[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit add .[?2004l
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit p commit -m ""t"e"x"t" "m"a"n"i"p"u"l"a"t"i"o"n" "l"i"k"e" "" " " " " r"e"g"e"x" "c"u"t" "g"r"e"p"[?2004l
-[main d71c604] text manipulation regex cut grep
- 2 files changed, 121 insertions(+)
- create mode 100644 Text Manipulation/fruits.csv
- create mode 100644 Text Manipulation/text_manipulation_and_regex.log
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hggit push origin main[?2004l
-Enumerating objects: 6, done.
-Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
-Delta compression using up to 8 threads
-Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
-Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 1.81 KiB | 1.81 MiB/s, done.
-Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To https://github.com/diljotrandhawaa/linux_essentials.git
-   ca3fceb..d71c604  main -> main
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hmmkdir shell     ""s"h"e"l"l" "" " " " " " S"h"e"l"l" "S"c"r"i"p"t"s"[?2004l
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Linux-Foundations % [K[?2004hccd Shell\ Scripts[1m/[0m[0m [?2004l
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Shell Scripts % [K[?2004httouhc  ch git. _script.sh[?2004l
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Shell Scripts % [K[?2004hnnan n  cclear[?2004l
-[3J[H[2J[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Shell Scripts % [K[?2004hnnano git_script.sh[1m [0m[0m [?2004l
-[?1049h[1;21r[1;1H[J[7m  UW PICO 5.09                                          New Buffer                                             [27m[20;1H[K[21;1H[K[20;1H[7m^[27m[7mG[27m Get Help       [7m^[27m[7mO[27m WriteOut       [7m^[27m[7mR[27m Read File      [7m^[27m[7mY[27m Prev Pg        [7m^[27m[7mK[27m Cut Text       [7m^[27m[7mC[27m Cur Pos        [K[21;1H[7m^[27m[7mX[27m Exit           [7m^[27m[7mJ[27m Justify        [7m^[27m[7mW[27m Where is       [7m^[27m[7mV[27m Next Pg        [7m^[27m[7mU[27m UnCut Text     [7m^[27m[7mT[27m To Spell       [K[3;1H[19;1H                                                                                                               [19;48H[7m[ Reading file ][27m[19;1H                                                                                                               [19;49H[7m[ Read 1 line ][27m[1;1H[J[7m  UW PICO 5.09                                      File: git_script.sh                                        [27m[20;1H[K[21;1H[K[20;1H[7m^[27m[7mG[27m Get Help       [7m^[27m[7mO[27m WriteOut       [7m^[27m[7mR[27m Read File      [7m^[27m[7mY[27m Prev Pg        [7m^[27m[7mK[27m Cut Text       [7m^[27m[7mC[27m Cur Pos        [K[21;1H[7m^[27m[7mX[27m Exit           [7m^[27m[7mJ[27m Justify        [7m^[27m[7mW[27m Where is       [7m^[27m[7mV[27m Next Pg        [7m^[27m[7mU[27m UnCut Text     [7m^[27m[7mT[27m To Spell       [K[3;1H[1;49H[7mFile: git_script.sh                                  Modified[27m[3;1Hecho[3;6H""[3;7Ht"[3;8He"[3;9Hs"[3;10Ht"[3;11Hi"[3;12Hn"[3;13Hg"[3;14H,"[3;15H "[3;16Ho"[3;17Hk"[3;18H "[3;19Hw"[3;20Ho"[3;21Hr"[3;22Hk"[3;23Hi"[3;24Hn"[3;25Hg"[3;26H "[3;27Hf"[3;28Hi"[3;29Hn"[3;30He"[3;31H "[3;32Hi"[3;33Ht"[3;34H "[3;35Hs"[3;36He"[3;37He"[3;38Hm"[3;39Hs"[3;40H[3;41H[20;1H                  [7mY[27m Yes                                                                                     [K[21;2H[7mC[27m Cancel         [7mN[27m No                                                                                      [K[19;1H                                                                                                               [19;1H[7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                   [19;62H[27m[7mYes[27m[19;1H                                                                                                               [19;1H[7mFile Name to write :                                                                                           [19;22H[27m[20;1H[7m^[27m[7mG[27m Get Help       [7m^[27m[7mT[27m  To Files                                                                              [K[21;19H[7mT[27m[7mA[27m[7mB[27m Complete                                                                              [K[7m[19;22Hgit_script.sh                                                                             [19;35H[27m[19;1H                                                                                                               [19;49H[7m[ Writing... ][27m[19;1H                                                                                                               [19;48H[7m[ Wrote 1 line ][27m[20;1H[K[21;1H[K[?1049l[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Shell Scripts % [K[?2004h../g .  ggit g  ../git_scrit pt.sh[?2004l
-zsh: permission denied: ./git_script.sh
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Shell Scripts % [K[?2004hcchmod +x git_script.sh[1m [0m[0m [?2004l
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Shell Scripts % [K[?2004hchmod +x git_script.sh[22D./[7P[13C       [?2004l
-testing, ok working fine it seems
-[1m[7m%[27m[1m[0m                                                                                                               [0m[27m[24m[Japple@Apples-MBP Shell Scripts % [K[?2004h
+Script done on Wed May 22 13:39:01 2024
